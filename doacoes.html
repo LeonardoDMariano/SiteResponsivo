@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Site baseado em protótipo">
+  <meta name="author" content="Leonardo Duarte Mariano">
+  <title>Conhecendo os Répteis</title>
+  <link rel="stylesheet" href="./css/doacoes.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header>
+    <div id="principal">
+      <div id="logo">
+        <img src="./img/logo.png" alt="">
+      </div>
+    </div>
+
+    <a id="btm" href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i id="bars" class="fa fa-bars"></i>
+    </a>
+
+    <nav id="menu">
+            <ul>
+                <li><a href="index.html" class="menulink" id="home">home</a></li>
+                <hr class="hrmenu">
+                <li><a href="#" class="menulink" id="doacao">doações</a></li>
+                <hr class="hrmenu">
+                <li><a href="curiosidades.html" class="menulink" id="curiosidade">curiosidades</a></li>
+            </ul>
+        </nav>
+  </header>
+
+  <main>
+
+    <h1 id="titulo">AJUDE OS ANIMAIS <br> FAÇA SUA DOAÇÃO</h1>
+
+    <div id="divcont">
+      <div id="qrcode">
+        <img src="./img/frame.png" alt="">
+      </div>
+      <div id="vlw">
+        <img src="./img/obrigado.jpg" alt="">
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Copyright por Leonardo Mariano 2020</p>
+  </footer>
+
+  <script>
+          function myFunction() {
+            var x = document.getElementById("menu");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+  </script>
+</body>
+
+</html>

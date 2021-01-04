@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body, html {
+  background-color: #4F7A4D;
+  height: 100%;
+}
+
+header {
+  background-color: #98FB98;
+  width: 100%;
+  z-index: 999;
+  position: absolute;
+  top: 0;
+}
+
+#logo {
+  padding: 2vw;
+  margin-left: 3vw;
+  width: 22vw;
+}
+
+#logo img {
+  width: 100%;
+}
+
+#btm {
+  font-size: 16vw;
+  text-decoration: none;
+  color: black;
+  float: right;
+  margin-top: -22vw;
+  margin-right: 4vw;
+}
+
+#menu {
+  background-color: #68C265;
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+
+#menu ul li {
+  padding: 5vw;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.hrmenu {
+  width: 60%;
+  margin-left: 20%;
+  height: 1px;
+}
+
+hr {
+    color: black;
+    height: 2px;
+    background-color: black;
+}
+
+main {
+  margin-top: 28vw;
+  margin-left: 5%;
+  width: 90%;
+  height: 50vw;
+}
+
+#titulo {
+  font-size: 6vw;
+  text-align: center;
+  color: white;
+  padding-bottom: 4vw;
+}
+
+#jacareimg img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#textcont {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.content {
+  text-align: justify;
+  padding: 3vw;
+  margin-top: -1vw;
+  text-indent: 2em;
+}
+
+footer {
+  margin-top: 120vw;
+  background-color: #EEE6E6;
+  width: 100%;
+  height: 8vw;
+}
+
+footer p {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 5vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .content {
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    position: absolute;
+  }
+
+  #logo {
+    padding: 0.5vw;
+    margin-left: 5vw;
+    width: 8vw;
+  }
+
+  #logo img {
+    width: 100%;
+  }
+
+  #btm {
+    display: none;
+  }
+
+  #menu {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        border: none;
+        text-align: left;
+    }
+
+    ul {
+        position: absolute;
+        list-style: none;
+        margin-top: -10vw;
+    }
+
+    #menu ul li a {
+      color: black;
+      font-size: 1.5vw;
+    }
+
+    #home {
+        margin-left: 39.2vw;
+    }
+
+    #doacao {
+      float: left;
+      margin-left: 56vw;
+      margin-top: -11.5vw;
+    }
+
+    #curiosidade {
+        margin-left: 75vw;
+        float: left;
+        margin-top: -21.5vw;
+    }
+
+    hr {
+      display: none;
+    }
+
+    main {
+      margin-top: 14vw;
+    }
+
+    #titulo {
+      font-size: 3vw;
+      padding-bottom: 4vw;
+    }
+
+    #homecont {
+      display: flex;
+      flex-direction: row;
+    }
+
+    #jacareimg img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    #textcont {
+      width: 100%;
+      border-radius: 10px;
+      background-color: white;
+    }
+
+    .content {
+      text-align: justify;
+      font-size: 1.5vw;
+      padding: 2vw;
+      margin-top: -1vw;
+      text-indent: 2em;
+    }
+
+    footer {
+      margin-top: -4vw;
+      background-color: #EEE6E6;
+      width: 100%;
+      height: 4vw;
+    }
+
+    footer p {
+      padding-top: 1vw;
+      text-align: center;
+      font-size: 2vw;
+    }
+}
